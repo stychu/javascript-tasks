@@ -3,26 +3,22 @@
 ### JS Assessments test basic JavaScript knowledge. Please read instructions carefully to ensure that you understand each task.
 
 Each exercise consist of few simple tasks. You are supposed to implement functions, having provided only the function name and purpose.
-Your solutions should be placed inside **impl/day2.js** file, as a properties of **window.day2** object.
+Your solutions should be placed inside **app/exercise2.js** file, as a properties of **window.exercise2** object.
 
 #### Before you start...
 
 Resolve provided dependencies by typing in console:
 
     npm install
-    bower install
 
 To test your solution locally, type:
-
-    npm start
-
-or
 
     npm test
 
 JavaScript basic functions:
 
     http://www.w3schools.com/jsref/
+    
 Javascript EcmaScript5 tutorials and more:
 
     https://developer.mozilla.org/en-US/docs/Web/JavaScript
@@ -31,31 +27,32 @@ Javascript EcmaScript5 tutorials and more:
 
 Create function that will accept three parameters:
 
-    createArrayObject(firstObject, secondObject, thirdObject)
+    createObject(first, second, third)
     
-This function should place every reference to object passed as parameter to a new object as a property according to the following pattern:
+This function should place every parameter to a new object as a property value according to the following pattern:
 
-    firstObject -> property1, secondObject -> property2, thirdObject -> property3
+    property1 -> first, property2 -> second, property3 -> third
 
 The object containing all the required properties with proper references should be then returned.
 
 
 ## Part II
 
+Create **reverseNumber** function for reversing the number which should accept one parameter:
+
 Write a function that will accept any value as a parameter:
 
-    testIsAnyReturnFunction(condition)
+    reverseNumber(number)
     
-If the **condition** will be truthy value the function should return boolean **true**. Otherwise, you are supposed to return undefined.
 
 
 ## Part III
 
 Create a function that takes in an array of numbers as a parameter:
 
-    arrayFunction(array)
+    squareOrCube(array)
     
-The function should square every even number and cube every odd number. They should be returned as an array of numbers(number should retain original index in array)
+The function should square every even number and cube every odd number. They should be returned as an array of numbers.
 
 
 ## Part IV
@@ -73,8 +70,7 @@ Create a function that takes in an array as a parameter:
 
     multiplyElementOfArray(array)
     
-The function should multiply by 3 every even number and multiply by 4 every odd number in the array. Moreover, it should use an array of function expressions to achieve the results.
-Return value should an array of numbers(number should retain original index in array). Elements other than numbers should remain unaffected.
+The function should multiply by 3 every even **position** and multiply by 4 every odd **position** in the array. Return value should be an array of numbers(number should retain original index in array). Elements other than numbers should remain unaffected.
 
 
 ## Part VI
@@ -154,7 +150,6 @@ If the **str** parameter value is incorrect function should return false.
 
 ## Part XII:
 
-
 Write the **factorial** function that will accept an Number as parameter:
 
     factorial(num)
@@ -170,5 +165,8 @@ Write a function that will accept an object with multiple properties containing 
     
 It should add every property of **objectWithNumbers** and return the sum of all those properties.
 
-
+**Hint** Length of object:
+    
+    Object.keys(myObject).length
+    
 
