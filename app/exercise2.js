@@ -3,11 +3,25 @@
     'use strict';
 
     window.exercise2 = {
+        reverseNumber: function (num)
+        {
 
-        // create functions according to the template below:
-        // functionName: function (paramA, paramB)
-        // {
-        // }
+        },
+        squareOrCube: function (array)
+        {
 
+        },
+        replaceString: function (list, searchString, newString)
+        {
+
+        },
+        maxArray: function (array)
+        {
+
+        },
+        getObject: function (list, name)
+        {
+
+        }
     };
 })();
