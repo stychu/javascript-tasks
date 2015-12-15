@@ -3,7 +3,7 @@
     'use strict';
 
     window.exercise2 = {
-        reverseNumber: function (num)
+        reverseNumber: function (number)
         {
 
         },
@@ -11,7 +11,7 @@
         {
 
         },
-        replaceString: function (list, searchString, newString)
+        replaceString: function (list, string, newString)
         {
 
         },
