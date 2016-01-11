@@ -1,4 +1,4 @@
-# Basic JavaScipt Part II
+# Basic JavaScript Part II
 
 ## Summary
 
